@@ -14,7 +14,7 @@ public class ServerApp {
     private static final Logger LOG = LoggerFactory.getLogger(ServerApp.class);
 
     public static void main(String[] args) {
-        LOG.info("Spring Config server started ...");
+        LOG.info("Spring Config server started ...  ");
         ConfigurableApplicationContext run = SpringApplication.run(ServerApp.class, args);
         run.registerShutdownHook();
     }
